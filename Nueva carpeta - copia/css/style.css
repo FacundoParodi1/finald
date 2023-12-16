@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Vina+Sans&display=swap");
+header {
+  background-image: url("../img/header-fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  font-family: "Vina Sans";
+}
+header div .masthead-subheading {
+  color: white;
+  text-align: center;
+}
+header div .masthead-heading {
+  color: white;
+  text-align: center;
+  padding-bottom: 300px;
+}
+
+footer div h3 {
+  font-size: 2rem;
+  margin: 100px 20px;
+}
+footer div div a {
+  margin-left: 10px;
+}
+footer div div a i {
+  color: yellow;
+}
+
+.container-fluid {
+  font-family: "Vina Sans";
+}
+.container-fluid .section1 .conte-main .conte-main-text a {
+  text-decoration: none;
+  color: rgb(255, 243, 243);
+  background-color: rgb(78, 78, 78);
+  padding: 0 20px;
+  font-size: 1.2rem;
+}
+.container-fluid .section2 .conte-hastag h2 {
+  font-size: 3rem;
+}
+.container-fluid .section3 .carousel .carousel-inner .carousel-item {
+  height: 30g0px;
+}
+.container-fluid .section3 .carousel .carousel-inner .carousel-item img {
+  height: 100%;
+}
+.container-fluid .section3 .contenedor-1 .titulo-2 a {
+  text-decoration: none;
+  color: rgb(255, 243, 243);
+  background-color: rgb(78, 78, 78);
+  padding: 0 20px;
+  font-size: 1.2rem;
+}
+.container-fluid .section4 .contenedor-enlaces a {
+  margin-left: 20px;
+  color: #edb026;
+}
+
+.col-12 {
+  font-family: "Vina Sans";
+}
+.col-12 .row {
+  height: 350px;
+}
+.col-12 .row .informacion-productos {
+  padding: 0;
+}
+.col-12 .row .informacion-productos img {
+  border-radius: 20%;
+}
+.col-12 .row div div {
+  line-height: 1.5;
+}
+.col-12 .row div div .descripcion {
+  width: 100px;
+  font-family: "Oswald", sans-serif;
+  font-size: 0.8rem;
+  height: 160px;
+  width: 100px;
+}
+.col-12 .row div button {
+  font-size: 1.2rem;
+  padding: 0 30px;
+  border: none;
+  background-color: #edb026;
+}
+.col-12 .row div button:hover {
+  background-color: rgb(78, 78, 78);
+}
+.col-12 .row div button:active {
+  border-radius: 3px;
+}
+.col-12 .row div .modal-dialog .modal-content .modal-header button {
+  background-color: white;
+}
+.col-12 .row div .modal-dialog .modal-content .modal-footer button {
+  color: black;
+}
+
+.container-fluid .row .titulo-ubicacion h3 {
+  font-size: 4rem;
+}
+.container-fluid .row .ubicaciones .card .card-img-top {
+  height: 191px;
+}
+.container-fluid .row .ubicaciones .card .card-body {
+  font-family: "Vina Sans";
+}
+.container-fluid .row .ubicaciones .card .card-body .mapa {
+  text-decoration: none;
+  background-color: #edb026;
+  color: black;
+  padding: 5px 20px;
+}
+.container-fluid .row .ubicaciones .card .card-body .mapa:hover {
+  background-color: rgb(78, 78, 78);
+}
+.container-fluid .row .ubicaciones .card .card-body .mapa:active {
+  border-radius: 3px;
+}
+
+.contnedor-section .contenedor {
+  margin: 20px 0;
+}
+.contnedor-section .contenedor .row .informacion-1 .info_nosotros {
+  font-family: "Vina Sans";
+  color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.contnedor-section .contenedor .row .informacion-1 .info_nosotros h2 {
+  border-bottom: 2px solid black;
+}
+.contnedor-section .contenedor .row .imagenes-nosotros {
+  height: 400px;
+  padding: 0;
+  margin: 30px 0;
+  width: 450px;
+}
+.contnedor-section .contenedor .row .imagenes-nosotros img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-fluid {
+  font-family: "Vina Sans";
+  padding: 0;
+  margin: 0;
+}
+.container-fluid .titulo-contactos {
+  width: 100%;
+  background-color: #edb026;
+  margin: 0 30px 0 0;
+  padding: 0;
+}
+.container-fluid .titulo-contactos h5 {
+  font-size: 2rem;
+  padding-top: 20px;
+}
+.container-fluid .titulo-contactos h6 {
+  padding-bottom: 20px;
+}
+.container-fluid .container-form .form-contact {
+  font-family: "Vina Sans";
+}
+.container-fluid .container-form .form-contact .field-text {
+  width: 300px;
+  margin: 20px;
+  height: 50px;
+}
+.container-fluid .container-form .form-contact .field-text input {
+  width: 100%;
+  height: 100%;
+  font-family: "Vina Sans";
+}
+.container-fluid .container-form .form-contact .field-text textarea {
+  width: 100%;
+  height: 100%;
+  font-family: "Vina Sans";
+}
+.container-fluid .container-form .form-contact .field-submit {
+  margin-bottom: 20px;
+}
+.container-fluid .container-form .form-contact .field-submit input {
+  height: 50px;
+  width: 100px;
+  font-family: "Vina Sans";
+  background-color: #edb026;
+  border: none;
+}
+.container-fluid .container-form .form-contact .field-submit input:hover {
+  background-color: rgb(78, 78, 78);
+}
+.container-fluid .container-form .form-contact .field-submit input:active {
+  border-radius: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */

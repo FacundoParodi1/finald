@@ -1,0 +1,54 @@
+.container-fluid{
+    font-family: $subtitulos;
+    .section1{
+       .conte-main{
+            .conte-main-text{
+                a{
+                    text-decoration: none;
+                    color: rgb(255, 243, 243);
+                    background-color: rgb(78, 78, 78);
+                    padding: 0 20px;
+                    font-size: 1.2rem;
+                }
+            }
+       } 
+    }
+    .section2{
+        .conte-hastag{
+            h2{
+                font-size: 3rem;
+            }
+        }
+    }
+    .section3{
+        .carousel{
+            .carousel-inner{
+                .carousel-item{
+                    height: 30g0px;
+                    img{
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        .contenedor-1{
+            .titulo-2{
+                a{
+                    text-decoration: none;
+                    color: rgb(255, 243, 243);
+                    background-color: rgb(78, 78, 78);
+                    padding: 0 20px;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    .section4{
+        .contenedor-enlaces{
+            a{
+                margin-left: 20px;
+                color: #edb026;
+            }
+        }
+    }
+}

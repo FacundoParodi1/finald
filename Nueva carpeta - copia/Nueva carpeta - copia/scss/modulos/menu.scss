@@ -1,0 +1,57 @@
+
+.col-12{
+       font-family: $subtitulos;
+    .row{
+        height: 350px;
+        .informacion-productos{
+            padding: 0;
+            img{
+                border-radius: 20%;
+            }
+        }
+        div{
+            div{
+                line-height: 1.5;
+                .descripcion{
+                    width: 100px;
+                    font-family: $letra;
+                    font-size: 0.8rem; 
+                    height: 160px;    
+                    width: 100px;            
+                }
+            }
+        }
+        div{
+            
+            button{
+                font-size: map-get($boton-menu, "tamaño-fuente" );
+                padding: map-get($boton-menu, "padding" );
+                border: none;
+                background-color: map-get($boton-menu, "color" );
+                &:hover{
+                    background-color: map-get($boton-menu, "color-hover");
+                }
+                &:active{
+                    border-radius: map-get($boton-menu, "active" );
+                }
+            }
+        }
+        div{
+            .modal-dialog{
+                .modal-content{
+                    .modal-header{
+                        
+                        button{
+                            background-color: white;
+                        }
+                    }
+                    .modal-footer{
+                        button{
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>CONTACTOS</title> 
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-black p-1">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../img/logo2.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav w-100 d-flex justify-content-around w-10">
+              <a class="nav-link text-light" href="../pages/menu.html">MENU</a>
+              <a class="nav-link text-light" href="../pages/nosotros.html">NOSOTROS</a>
+              <a class="nav-link text-light" href="../pages/ubicacion.html">UBICACION</a>
+              <a class="nav-link text-light" href="../pages/contactos.html">CONTACTANOS</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="masthead-subheading  text mb-4"><h1>BURGUER HOUSE</h1></div>
+            <div class="masthead-heading text md-4">Las mejores hamburguesas del mundo</div>
+        </div>
+   </header>
+   <main class="container-fluid">
+    <div class="col-12 text-center titulo-contactos p-0" >
+        <h5>Ponete en contacto con nosotros</h5>
+        <h6>Completa los siguienetes datos</h6>
+    </div>
+    <div class="container-form">
+        <form action="php" class="form-contact col-12 d-flex justify-content-center align-items-center flex-column" method="post">
+            <div class="field-text">
+                <input type="text" name="name" required  placeholder="Nombre" class="text-center">
+            </div>
+            <div class="field-text">
+                <input type="text" name="last-name" required placeholder="Apellido" class="text-center">
+            </div>
+            <div class="field-text"><input type="text" name="phone" placeholder="Telèfono" class="text-center">
+            </div>
+            <div class="field-text"><input type="email" name="email" required  placeholder="E-mail" class="text-center">
+            </div>
+            <div class="field-text"><textarea name="message"  placeholder="Mensaje" class="text-center"></textarea></div>
+            <div class="field-submit"><input type="submit" value="Enviar"></div>
+        </form>
+    </div>
+   </main>
+    <footer class="container-fluid bg-black">
+        <div class="text-center d-flex justify-content-center">
+            <h3 class="text-light">BURGUERS HOUSE</h3>
+            <div class="d-flex justify-content-center align-items-center">
+                <img class="" src="../img/logo2.png" alt="LOGO">  
+            </div>
+        </div>
+        <div>
+            <div class="row">
+                <div class="col-6 d-flex justify-content-center">
+                    <p class="text-light">Burguer House 2023 ©</p>
+                </div>
+                <div class="col-6 d-flex ">
+                    <p class="text-light">Seguinos en</p>
+                    <a href="https://twitter.com/?lang=es" target="_blank"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.tiktok.com/es/" target="_blank"><i class="bi bi-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

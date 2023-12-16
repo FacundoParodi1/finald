@@ -1,0 +1,31 @@
+.container-fluid{
+    .row{
+        .titulo-ubicacion{
+            h3{
+                font-size: 4rem;
+            }
+        }
+        .ubicaciones{
+            .card{
+                .card-img-top{
+                    height: 191px;
+                }
+                .card-body{
+                    font-family: $subtitulos;
+                    .mapa{
+                        text-decoration: none;
+                        background-color: #edb026;
+                        color: black;
+                        padding: 5px 20px;
+                        &:hover{
+                            background-color: rgb(78, 78, 78);
+                        }
+                        &:active{
+                            border-radius: 3px;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}

@@ -1,0 +1,12 @@
+footer div h3 {
+  font-size: 2rem;
+  margin: 100px 20px;
+}
+footer div div a {
+  margin-left: 10px;
+}
+footer div div a i {
+  color: yellow;
+}
+
+/*# sourceMappingURL=footer.css.map */

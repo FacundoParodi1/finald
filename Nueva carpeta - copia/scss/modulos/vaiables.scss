@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Vina+Sans&display=swap');
+
+
+
+$subtitulos: 'Vina Sans';
+$letra: 'Oswald', sans-serif;
+$boton-menu:(
+    "color":#edb026,
+    "tamaño-fuente": 1.2rem,
+    "padding": 0 30px,
+    "color-hover":rgb(78, 78, 78),
+    "active": 3px
+)
